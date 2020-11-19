@@ -19,7 +19,7 @@ export class ProductComponent implements OnInit {
   }
 
   addProduct(form?: NgForm){
-    if ( form.value.name && form.value.descrition && form.value.price) {
+    if ( form.value._id) {
       this.productService.putProduct(form.value).subscribe((res) => {
         this.resetForm(form);
         this.getProducts();

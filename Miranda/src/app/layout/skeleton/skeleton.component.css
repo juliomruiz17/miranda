@@ -1,0 +1,6 @@
+.dsc-skeleton-content {
+    min-height: calc(100vh - 80px - 60px);
+    background: rgba(120, 113, 136, 0.05);
+    width: 100%;
+}
+

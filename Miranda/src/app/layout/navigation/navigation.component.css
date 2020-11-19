@@ -1,0 +1,8 @@
+.dsc-navigation {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0.5rem 1rem;
+    background: rgba(9, 94, 190, 0.8);
+}

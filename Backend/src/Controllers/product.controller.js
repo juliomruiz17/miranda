@@ -8,7 +8,7 @@ productCtrl.getProducts = async (req, res, next) => {
 };
 
 productCtrl.createProduct = async (req, res, next) => {
-  if (req.body.name && req.body.description && req.body.price) {
+  if ((req.body.name && req.body.description && req.body.price)) {
     const product = new Product({
       name: req.body.name,
       description: req.body.description,
